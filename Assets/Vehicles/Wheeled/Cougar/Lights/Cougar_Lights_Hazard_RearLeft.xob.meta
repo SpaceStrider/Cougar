@@ -1,0 +1,35 @@
+MetaFileClass {
+ Name "{4D9140CE2ACC61DE}Assets/Vehicles/Wheeled/Cougar/Lights/Cougar_Lights_Hazard_RearLeft.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5D5CC0F838CCC93C}" {
+     SourceMaterial "CougarHE_Lights"
+     AssignedMaterial "{74442E96FB0B50CF}Assets/Vehicles/Wheeled/Cougar/Lights/Data/CougarHE_Lights.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Cougar_Lights_Hazard_RearLeft {
+    }
+   }
+   Common TXOCommonClass "{5D5CC0F838B01D80}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5D5CC0F838B01D07}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5D5CC0F838B01D66}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5D5CC0F838B01D70}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5D5CC0F838B01D5C}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

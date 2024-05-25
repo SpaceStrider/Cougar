@@ -1,0 +1,8 @@
+GenericEntity : "{0F2969CC34F2A8A1}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Cougar_Seats.et" {
+ ID "5D5ECEBF84BA5527"
+ components {
+  MeshObject "{5D5ECEBF84BA5520}" {
+   Object "{6963FF8EFC777C8E}Assets/Vehicles/Wheeled/Cougar/VehParts/CougarH_RearSeats.xob"
+  }
+ }
+}

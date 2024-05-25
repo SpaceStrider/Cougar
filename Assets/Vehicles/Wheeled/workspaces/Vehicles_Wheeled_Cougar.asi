@@ -1,0 +1,64 @@
+AnimSetInstanceSource {
+ Template "{7F633C1C12A72901}Assets/Vehicles/Wheeled/workspaces/Vehicles_Wheeled_Template.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.AccelerationSpine" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.AccelerationSpine" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.AccelerationSpine" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.AccelerationSpine" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.AccelerationSpine" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.AccelerationSpine" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.HeadLook" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.HeadLook" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.HeadLook" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.HeadLook" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.HeadLook" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.HeadLook" {
+   Resource "{AFA8A456B2F2BE59}Assets/Vehicles/Wheeled/Ural4320/anm/v_ural_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetIn" {
+   Resource "{046670778EF1B12E}Assets/Vehicles/Wheeled/M923A1/anm/v_M923A1_codriverR_getIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetIn" {
+   Resource "{3D163116F161FB2F}Assets/Vehicles/Wheeled/M923A1/anm/v_M923A1_driver_getIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetIn" {
+   Resource "{046670778EF1B12E}Assets/Vehicles/Wheeled/M923A1/anm/v_M923A1_codriverR_getIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInR" {
+   Resource "{046670778EF1B12E}Assets/Vehicles/Wheeled/M923A1/anm/v_M923A1_codriverR_getIn.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetOut" {
+   Resource "{AB13799181AAFD01}Assets/Vehicles/Wheeled/M923A1/anm/v_M923A1_codriverR_getOut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetOut" {
+   Resource "{A183BC8F15AD9D1D}Assets/Vehicles/Wheeled/M923A1/anm/v_M923A1_driver_getOut.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutR" {
+   Resource "{AB13799181AAFD01}Assets/Vehicles/Wheeled/M923A1/anm/v_M923A1_codriverR_getOut.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{5D5AD85E00700615}" {
+ }
+}

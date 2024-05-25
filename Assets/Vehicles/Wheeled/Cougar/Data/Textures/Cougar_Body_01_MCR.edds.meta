@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CEE163D9B2575DF5}Assets/Vehicles/Wheeled/Cougar/Data/Textures/Cougar_Body_01_MCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

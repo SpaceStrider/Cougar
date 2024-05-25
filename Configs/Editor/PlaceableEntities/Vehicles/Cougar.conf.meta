@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C604775FCAEFF6E0}Configs/Editor/PlaceableEntities/Vehicles/Cougar.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

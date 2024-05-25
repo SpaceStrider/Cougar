@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{68B2B0ED1B2AEC91}Assets/Vehicles/Wheeled/Cougar/VehParts/Data/Cougar_Interior_Fabric.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

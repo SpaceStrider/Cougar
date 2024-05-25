@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C6EF2A829114C0C1}Assets/Vehicles/Wheeled/Cougar/Data/Textures/Cougar_Rubber_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

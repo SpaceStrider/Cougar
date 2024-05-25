@@ -1,0 +1,75 @@
+MetaFileClass {
+ Name "{EB602C724C8C3506}Assets/Vehicles/Wheeled/Cougar/VehParts/Glass/CougarH_Glass.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5D9E2CCAE0D34708}" {
+     SourceMaterial "CougarHE_Glass"
+     AssignedMaterial "{ECCAC647FDA47B57}Assets/Vehicles/Wheeled/Cougar/Data/CougarHE_Glass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Cougar_Glass {
+    }
+    MeshParam Door_Glass_FL {
+    }
+    MeshParam Door_Glass_RL {
+    }
+    MeshParam Door_Glass_RR {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Cougar_Glass_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C97BA59A04D0889A}Common/Materials/Game/GlassArmored/glass_armored_15mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Door_Glass_FL {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C97BA59A04D0889A}Common/Materials/Game/GlassArmored/glass_armored_15mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Door_Glass_RL {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C97BA59A04D0889A}Common/Materials/Game/GlassArmored/glass_armored_15mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Door_Glass_RR {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C97BA59A04D0889A}Common/Materials/Game/GlassArmored/glass_armored_15mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5D9E2CCAE0DBB54F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5D9E2CCAE0DB94E1}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5D9E2CCAE0DB943D}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5D9E2CCAE0DB9412}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5D9E2CCAE0DB947A}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

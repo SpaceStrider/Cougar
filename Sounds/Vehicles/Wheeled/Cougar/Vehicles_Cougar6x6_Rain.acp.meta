@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F558DF053F0D60E9}Sounds/Vehicles/Wheeled/Cougar/Vehicles_Cougar6x6_Rain.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

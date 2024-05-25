@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{08ACE5C97F6373FA}Assets/Vehicles/Wheeled/Cougar/VehParts/Turrets/Camera/Data/CougarH_Interior_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

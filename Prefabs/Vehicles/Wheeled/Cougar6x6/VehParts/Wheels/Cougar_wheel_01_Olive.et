@@ -1,0 +1,13 @@
+GenericEntity : "{6B91106B2E0E5A2E}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Wheels/Cougar_wheel_01.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5D5E52C499405683}" {
+     SourceMaterial "Cougar_Body_01"
+     AssignedMaterial "{2F744E6C6E341EFB}Assets/Vehicles/Wheeled/Cougar/Data/Cougar_Body_01_Olive.emat"
+    }
+   }
+  }
+ }
+}

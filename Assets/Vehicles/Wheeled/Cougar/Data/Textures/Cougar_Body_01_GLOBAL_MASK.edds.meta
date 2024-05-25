@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9EBAFBF21E4FCBEF}Assets/Vehicles/Wheeled/Cougar/Data/Textures/Cougar_Body_01_GLOBAL_MASK.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

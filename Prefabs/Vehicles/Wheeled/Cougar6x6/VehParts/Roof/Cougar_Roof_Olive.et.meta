@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2D94261F4450D87E}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Roof/Cougar_Roof_Olive.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8D764C86925BC74D}Prefabs/Vehicles/Wheeled/Cougar/Lights/CougarLight_Dash.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,20 @@
+MatPBRMulti : "{5E5E09AE1F590306}Assets/Vehicles/Wheeled/Cougar/Data/CougarH_Interior_01.emat" {
+ MudColor 0.067 0.058 0.046 1
+ MudBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ MudNMOMap "{370535C4B4BFD3B2}Assets/_SharedData/Dirt/ST_Clay_Rough01_1m_NMO.edds"
+ MudMaskMap "{1B7EB2580B7412F0}Assets/_SharedData/DetailMask/ST_Smudge_01_Mask1.edds"
+ DirtOpacity 0.317
+ DirtColor 0.082 0.072 0.058 1
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ Color_4 0.052 0.061 0.047 1
+ BCR_3 "{35DFF427FFCD66ED}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_BCR.edds"
+ NMO_3 "{0D074FB526BA3473}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_NMO.edds"
+ Mask_3 "{490DFFF4475F7EC7}Assets/_SharedData/DetailMask/ST_Dirt_09_Mask1.edds"
+ BCR_2 "{F829787DA88C2E39}Assets/_SharedData/Plastic/ST_Plastic_Leather02_1m_BCR.edds"
+ NMO_2 "{C0F1C3EF71FB7CA7}Assets/_SharedData/Plastic/ST_Plastic_Leather02_1m_NMO.edds"
+ Color_1 0.07 0.082 0.063 1
+ BCR_1 "{AAEB42112BD58A64}Assets/_SharedData/Metal/ST_metal_painted_brushstrokes_01_BCR.edds"
+ NMO_1 "{20EF5DA168DE7806}Assets/_SharedData/Metal/ST_MetalPaint_Coated_02_1m_NMO.edds"
+ Roughness_1 3
+}

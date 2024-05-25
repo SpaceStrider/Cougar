@@ -1,0 +1,75 @@
+MetaFileClass {
+ Name "{BDB56D13B9723D06}Assets/Vehicles/Wheeled/Cougar/VehParts/Turrets/Camera/CougarH_Camera.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{5D9E3A1025B67844}" {
+     SourceMaterial "Cougar_Body_03"
+     AssignedMaterial "{F37604141C52C8F0}Assets/Vehicles/Wheeled/Cougar/VehParts/Turrets/Camera/Data/Cougar_Body_03.emat"
+    }
+    MaterialAssignClass "{5D9E3A1025B679B6}" {
+     SourceMaterial "Cougar_Body_01"
+     AssignedMaterial "{D1F664442F13C8DD}Assets/Vehicles/Wheeled/Cougar/Data/CougarHE_Body_01.emat"
+    }
+    MaterialAssignClass "{5D9E3A1025B679B3}" {
+     SourceMaterial "camera"
+     AssignedMaterial "{544A4C0F6210C1DD}Assets/Vehicles/Wheeled/Cougar/VehParts/Turrets/Camera/Data/camera.emat"
+    }
+    MaterialAssignClass "{5D9E3A1025B6798F}" {
+     SourceMaterial "CougarHE_Glass"
+     AssignedMaterial "{ECCAC647FDA47B57}Assets/Vehicles/Wheeled/Cougar/Data/CougarHE_Glass.emat"
+    }
+    MaterialAssignClass "{5D9E3A1025B6798D}" {
+     SourceMaterial "CougarH_Interior_01"
+     AssignedMaterial "{5E5E09AE1F590306}Assets/Vehicles/Wheeled/Cougar/Data/CougarH_Interior_01.emat"
+    }
+    MaterialAssignClass "{5D9E3A1025B6798A}" {
+     SourceMaterial "CougarH_Body_01"
+     AssignedMaterial "{5F7AE0A70D4B1B21}Assets/Vehicles/Wheeled/Cougar/Data/CougarH_Body_01.emat"
+    }
+    MaterialAssignClass "{5D9E3A1025B67987}" {
+     SourceMaterial "generic_mirror"
+     AssignedMaterial "{A47C5D03ADB1464C}Common/Materials/Mirror_generic.emat"
+    }
+   }
+   MeshParams {
+    MeshParam CodriverCameraH {
+    }
+    MeshParam DoorH_FR {
+    }
+    MeshParam Door_Glass_FR {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Door_Glass_FR {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C97BA59A04D0889A}Common/Materials/Game/GlassArmored/glass_armored_15mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5D9E3A1025AAF75E}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5D9E3A1025AAF012}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5D9E3A1025AAF05E}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5D9E3A1025AAF1A1}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5D9E3A1025AAF1F7}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

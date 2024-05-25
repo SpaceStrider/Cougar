@@ -1,0 +1,25 @@
+GenericEntity {
+ ID "5D5ECEBF84BA5527"
+ components {
+  MeshObject "{5D5ECEBF84BA5520}" {
+   Object "{D1E4067F47FA2878}Assets/Vehicles/Wheeled/Cougar/VehParts/Cougar_RearSeats.xob"
+   Materials {
+    MaterialAssignClass "{5D5ECEBFCA29D4DC}" {
+     SourceMaterial "chrome"
+     AssignedMaterial "{45ACFF71A7E643B3}Assets/Vehicles/Wheeled/Cougar/Data/chrome.emat"
+    }
+   }
+   PixelSizeScale 10
+  }
+  RigidBody "{5D5ECEBF84BA5538}" {
+   Enabled 0
+   Mass 100
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{5D5ECEBF84BA5535}" {
+  }
+  Hierarchy "{5D5ECEBF84BA5539}" {
+  }
+ }
+}

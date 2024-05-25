@@ -1,0 +1,13 @@
+Turret : "{F9EA833025A88818}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Turrets/Camera/Cougar_Camera.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{BDB56D13B9723D06}Assets/Vehicles/Wheeled/Cougar/VehParts/Turrets/Camera/CougarH_Camera.xob"
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "v_gun_02"
+   }
+  }
+ }
+}

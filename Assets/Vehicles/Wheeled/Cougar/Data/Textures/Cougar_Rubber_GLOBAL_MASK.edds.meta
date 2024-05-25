@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{02B454BA01813C3A}Assets/Vehicles/Wheeled/Cougar/Data/Textures/Cougar_Rubber_GLOBAL_MASK.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

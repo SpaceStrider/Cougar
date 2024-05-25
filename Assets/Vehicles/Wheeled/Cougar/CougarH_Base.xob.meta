@@ -1,0 +1,234 @@
+MetaFileClass {
+ Name "{A579C15BB0F75F14}Assets/Vehicles/Wheeled/Cougar/CougarH_Base.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{5D9E4676C3DD851D}" {
+     SourceMaterial "CougarH_Body_01"
+     AssignedMaterial "{5F7AE0A70D4B1B21}Assets/Vehicles/Wheeled/Cougar/Data/CougarH_Body_01.emat"
+    }
+    MaterialAssignClass "{5D9E4676C3DD8563}" {
+     SourceMaterial "CougarH_Interior_01"
+     AssignedMaterial "{5E5E09AE1F590306}Assets/Vehicles/Wheeled/Cougar/Data/CougarH_Interior_01.emat"
+    }
+    MaterialAssignClass "{5D9E4676C3DD857D}" {
+     SourceMaterial "Cougar_Rubber"
+     AssignedMaterial "{B223CE9FFD3C6BA1}Assets/Vehicles/Wheeled/Cougar/Data/Cougar_Rubber.emat"
+    }
+    MaterialAssignClass "{5D9E4676C3DD8578}" {
+     SourceMaterial "CougarHE_Glass"
+     AssignedMaterial "{ECCAC647FDA47B57}Assets/Vehicles/Wheeled/Cougar/Data/CougarHE_Glass.emat"
+    }
+    MaterialAssignClass "{5D9E4676C3DD8573}" {
+     SourceMaterial "Cougar_Interior_Dashboard"
+     AssignedMaterial "{8A5AA3BEC6A6B37D}Assets/Vehicles/Wheeled/M923A1/Data/M923A1_Base_interior_Dashboard.emat"
+    }
+    MaterialAssignClass "{5D9E4676C3DD854A}" {
+     SourceMaterial "Interrior"
+     AssignedMaterial "{63DE41E7941CF2A3}Assets/Vehicles/Wheeled/JLTV/data/Interrior.emat"
+    }
+    MaterialAssignClass "{5D9E4676C3DD8546}" {
+     SourceMaterial "Cougar_MFCD"
+     AssignedMaterial "{9975D479084B5992}Assets/Vehicles/Wheeled/Cougar/Data/Cougar_MFCD.emat"
+    }
+    MaterialAssignClass "{5D9E4676C3DD8543}" {
+     SourceMaterial "black_matte"
+     AssignedMaterial "{043030EF6404134F}Assets/Vehicles/Wheeled/Cougar/Data/black_matte.emat"
+    }
+    MaterialAssignClass "{5D9E4676C3DD855E}" {
+     SourceMaterial "generic_mirror"
+     AssignedMaterial "{A47C5D03ADB1464C}Common/Materials/Mirror_generic.emat"
+    }
+    MaterialAssignClass "{5D9E4676C3DD8557}" {
+     SourceMaterial "Cougar_Interior_Fabric"
+     AssignedMaterial "{21323EC9A1A7061A}Assets/Vehicles/Wheeled/Cougar/Data/Cougar_Interior_Fabric.emat"
+    }
+    MaterialAssignClass "{5D9E4676C3DD8552}" {
+     SourceMaterial "chrome"
+     AssignedMaterial "{45ACFF71A7E643B3}Assets/Vehicles/Wheeled/Cougar/Data/chrome.emat"
+    }
+   }
+   MeshParams {
+    MeshParam CougarH {
+    }
+    MeshParam DoorH_FL {
+    }
+    MeshParam DoorH_RL {
+    }
+    MeshParam DoorH_RR {
+    }
+    MeshParam SeatH_05 {
+    }
+    MeshParam SeatH_06 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Body_01 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Body_02 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Body_03 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Body_04 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Body_05 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Body_06 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Body_07 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Body_08 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MineTrigger_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C3691F2D8FE0234F}Common/Materials/Game/dirt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MineTrigger_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C3691F2D8FE0234F}Common/Materials/Game/dirt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MineTrigger_04 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C3691F2D8FE0234F}Common/Materials/Game/dirt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MineTrigger_05 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C3691F2D8FE0234F}Common/Materials/Game/dirt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Hull {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+      "{F00E41D46A6C7FF3}Common/Materials/Game/Armor/armor_25mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Engine {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{0B9EB7B9C8DCC6A5}Common/Materials/Game/VehicleParts/engine.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Radiator {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Diff_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{427C6C77966E41CB}Common/Materials/Game/VehicleParts/differential.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Diff_02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{427C6C77966E41CB}Common/Materials/Game/VehicleParts/differential.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Gearbox {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{427C6C77966E41CB}Common/Materials/Game/VehicleParts/differential.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5D9A570D6B2741A3}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5D9A570D6B275D00}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5D9A570D6B275E30}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5D9A570D6B275E51}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5D9A570D6B275FE8}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

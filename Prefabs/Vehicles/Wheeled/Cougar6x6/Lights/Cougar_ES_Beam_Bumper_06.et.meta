@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{0FDF4E24A0517B54}Prefabs/Vehicles/Wheeled/Cougar/Lights/Cougar_ES_Beam_Bumper_06.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

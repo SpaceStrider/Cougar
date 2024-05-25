@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1B09A3327E48D8EE}Assets/Vehicles/Wheeled/Cougar/Data/Textures/CougarH_Interior_01_GLOBAL_MASK.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{22D87B127F005E86}Prefabs/Vehicles/Wheeled/Cougar/Lights/Cougar_ES_Hazard_BackRight.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

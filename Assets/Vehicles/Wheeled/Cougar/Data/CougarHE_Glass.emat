@@ -1,0 +1,12 @@
+MatPBRBasicGlass {
+ Color 0.479 0.479 0.479 1
+ Cull none
+ SurfaceProperties "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+ AlphaTest 0.001
+ AlphaMul 0.55
+ RoughnessScale 0.643
+ MetalnessScale 0.818
+ DielectricReflectance 0.05
+ BCRMap "{9C57C2E24CC46E55}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Windows_BCR.edds"
+ OpacityMap "{1A0C405A2FB07E54}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Windows_A.edds"
+}

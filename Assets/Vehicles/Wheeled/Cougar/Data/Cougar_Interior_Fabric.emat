@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0.051 0.051 0.051 1
+ BCRMap "{2C2411924177AC7B}Assets/_SharedData/Fabric/ST_Leather_01_BCR.edds"
+ NMOMap "{D6F07D5F999E24BB}Assets/_SharedData/Fabric/ST_Leather_01_N.edds"
+ GlobalMapsUVTransform MatUVTransform "{5D5AC350A2BF5FA4}" {
+  TilingU 15
+  TilingV 15
+ }
+}

@@ -1,0 +1,17 @@
+GenericEntity : "{52658279A7937305}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Roof/Cougar_Roof.et" {
+ ID "5D5E52D989E5D7BE"
+ components {
+  MeshObject "{5D5E52D989E5D7B8}" {
+   Materials {
+    MaterialAssignClass "{5D5E52D9DB1E83B3}" {
+     SourceMaterial "Cougar_Body_01"
+     AssignedMaterial "{2F744E6C6E341EFB}Assets/Vehicles/Wheeled/Cougar/Data/Cougar_Body_01_Olive.emat"
+    }
+    MaterialAssignClass "{5D5E52D9DB1E839C}" {
+     SourceMaterial "Cougar_Interior_01"
+     AssignedMaterial "{6F8BA360D4E4D4EB}Assets/Vehicles/Wheeled/Cougar/Data/Cougar_Interior_01_Olive.emat"
+    }
+   }
+  }
+ }
+}

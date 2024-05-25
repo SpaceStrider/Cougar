@@ -1,0 +1,15 @@
+MatPBRMulti : "{928F24D7518AA63A}Assets/Vehicles/Wheeled/Cougar/Data/Cougar_Interior_01.emat" {
+ MudColor 0.067 0.058 0.046 1
+ MudBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ MudNMOMap "{370535C4B4BFD3B2}Assets/_SharedData/Dirt/ST_Clay_Rough01_1m_NMO.edds"
+ MudMaskMap "{1B7EB2580B7412F0}Assets/_SharedData/DetailMask/ST_Smudge_01_Mask1.edds"
+ DirtOpacity 0.317
+ DirtColor 0.082 0.072 0.058 1
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ Enabled_4 0
+ Color_4 0.058 0.063 0.055 1
+ Color_1 0.07 0.082 0.063 1
+ NMO_1 "{20EF5DA168DE7806}Assets/_SharedData/Metal/ST_MetalPaint_Coated_02_1m_NMO.edds"
+ Roughness_1 3
+}

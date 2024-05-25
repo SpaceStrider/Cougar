@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D9C5A4F8422B0E7B}Common/Materials/Game/Armor/armor_35mm_min.gamemat"
+ Configurations {
+  GameMaterialResourceClass PC {
+  }
+  GameMaterialResourceClass XBOX_ONE : PC {
+  }
+  GameMaterialResourceClass XBOX_SERIES : PC {
+  }
+  GameMaterialResourceClass PS4 : PC {
+  }
+  GameMaterialResourceClass HEADLESS : PC {
+  }
+ }
+}

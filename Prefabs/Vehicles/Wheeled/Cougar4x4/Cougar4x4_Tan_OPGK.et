@@ -1,0 +1,54 @@
+Vehicle : "{342CF7448414328E}Prefabs/Vehicles/Wheeled/Cougar4x4/Cougar4x4_Tan.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Cougar 4x4 Tan OPGK"
+    m_Image "{8312B9C79799000C}UI/Textures/EditorPreviews/Vehicles/Wheeled/Cougar4x4/Cougar4x4_Tan_OPGK.edds"
+    m_aAuthoredLabels + {
+     21
+    }
+    m_aOccupantFillCompartmentTypes + {
+     1
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5D9A570F0AE8734D}" {
+      m_BudgetType AI
+      m_Value 2
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo ShadowAO {
+    }
+    SCR_WheelSlotInfo Wheel_L01 {
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+    }
+    RegisteringComponentSlotInfo Wheel_Spare_R {
+    }
+    RegisteringComponentSlotInfo Roof {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Camera {
+    }
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.32 1.56
+     Prefab "{439CCBBE2BCA1E38}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Turrets/OGPK/Cougar_gun_mount.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+}

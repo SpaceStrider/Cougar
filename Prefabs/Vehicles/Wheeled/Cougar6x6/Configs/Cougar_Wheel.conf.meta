@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F3F6522DFE68E357}Prefabs/Vehicles/Wheeled/Cougar/Configs/Cougar_Wheel.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

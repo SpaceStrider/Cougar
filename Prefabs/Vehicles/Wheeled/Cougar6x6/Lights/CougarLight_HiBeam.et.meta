@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1BD1C82CCF4D71C1}Prefabs/Vehicles/Core/Lights/CougarLight_HiBeam.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

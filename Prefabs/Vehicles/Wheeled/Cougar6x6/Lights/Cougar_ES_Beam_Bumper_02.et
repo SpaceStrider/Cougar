@@ -1,0 +1,9 @@
+GameEntity : "{A50B7F75B249F351}Prefabs/Vehicles/Core/Lights/VehicleEmissiveSurface_Base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{657412C008BB50A6}Assets/Vehicles/Wheeled/Cougar/Lights/Cougar_Lights_Beam_Bumper_02.xob"
+  }
+ }
+ coords -8.043 0.997 -6.269
+}

@@ -1,0 +1,17 @@
+MatPBRMulti : "{5F7AE0A70D4B1B21}Assets/Vehicles/Wheeled/Cougar/Data/CougarH_Body_01.emat" {
+ MudOpacity 0.98
+ MudColor 0.091 0.083 0.074 1
+ MudBCRMap "{AE37874A11911124}Assets/_SharedData/Dirt/ST_Mud_01_BCR.edds"
+ MudNMOMap "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MudMaskMap "{816ABEBED1A52FF3}Assets/_SharedData/DetailMask/ST_Mud_01_Mask.edds"
+ DirtColor 0.078 0.071 0.064 1
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{C9664A554B37B2B2}Assets/_SharedData/DetailMask/ST_Damage_01_Mask1.edds"
+ Color_2 0.036 0.042 0.031 1
+ BCR_2 "{8A0C885766CAD60D}Assets/_SharedData/Metal/ST_Rust_01_Aluminium_V2_BCR.edds"
+ NMO_2 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ Mask_2 "{490DFFF4475F7EC7}Assets/_SharedData/DetailMask/ST_Dirt_09_Mask1.edds"
+ Color_1 0.042 0.045 0.038 1
+ BCR_1 "{8A0C885766CAD60D}Assets/_SharedData/Metal/ST_Rust_01_Aluminium_V2_BCR.edds"
+ NMO_1 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+}

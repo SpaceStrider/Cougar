@@ -1,0 +1,33 @@
+Vehicle : "{E71A0410A2C6F58D}Prefabs/Vehicles/Wheeled/Cougar6x6/Cougar6x6_Tan.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Cougar 6x6 OPGK Tan"
+    m_aAuthoredLabels + {
+     21
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Camera {
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.32 0.73
+     Prefab "{439CCBBE2BCA1E38}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Turrets/OGPK/Cougar_gun_mount.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+}

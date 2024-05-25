@@ -1,0 +1,47 @@
+Turret : "{B1C534864D4A8ED4}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_gun_mount.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{0A2EC291EEFD032D}Assets/Vehicles/Wheeled/JLTV/JLTV_Armored_Turret.xob"
+   Materials {
+    MaterialAssignClass "{5D60A72FE5BDAFC6}" {
+     SourceMaterial "Cabin"
+     AssignedMaterial "{FD2B563F7D7F3469}Assets/Vehicles/Wheeled/JLTV/data/Cabin.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "gunner" "door_rear"
+      }
+      CanAggregate 1
+     }
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{98199CE9129841ED}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_Armored.et"
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      PivotID "gunner_idle"
+      Offset 0 0 0
+     }
+     Radius 0.4
+    }
+    UserActionContext "{5D60A72880FFBAE1}" {
+     ContextName "door_rear"
+     Position PointInfo "{5D60A72895138352}" {
+      Offset 0 1.58 -3.53
+     }
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+ }
+}

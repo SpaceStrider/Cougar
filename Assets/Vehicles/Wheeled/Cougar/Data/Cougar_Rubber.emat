@@ -1,0 +1,44 @@
+MatPBRMulti {
+ CavityFromAO 0.5
+ MaskMap "{02B454BA01813C3A}Assets/Vehicles/Wheeled/Cougar/Data/Textures/Cougar_Rubber_GLOBAL_MASK.edds"
+ VFXMap "{B69D2F2ACD7071AD}Assets/Vehicles/Wheeled/Cougar/Data/Textures/Cougar_Rubber_VFX.edds"
+ GlobalNMOMap "{C6EF2A829114C0C1}Assets/Vehicles/Wheeled/Cougar/Data/Textures/Cougar_Rubber_NMO.edds"
+ MudOpacity 0.925
+ MudColor 0.109 0.099 0.086 1
+ MudRoughness 2.04
+ MudDetNormal 2
+ MudBCRMap "{AE37874A11911124}Assets/_SharedData/Dirt/ST_Mud_01_BCR.edds"
+ MudNMOMap "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MudMaskMap "{816ABEBED1A52FF3}Assets/_SharedData/DetailMask/ST_Mud_01_Mask.edds"
+ MudUVTransform MatUVTransform "{5D5E52C0DACF89F9}" {
+ }
+ DirtOpacity 0.397
+ DirtLayerSharpness 4.07
+ DirtColor 0.095 0.086 0.073 1
+ DirtRoughness 1.151
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{5D5E52C023525285}" {
+  TilingU 6
+  TilingV 6
+ }
+ Enabled_2 1
+ Color_2 0.051 0.051 0.051 1
+ BCR_2 "{B141E00CC94C086A}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_BCR.edds"
+ NMO_2 "{89995B9E103B5AF4}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_NMO.edds"
+ MaskSharpness_2 1.08
+ MaskOffset_2 0.081
+ Mask_2 "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ UVTransform_2 MatUVTransform "{5D5E52CADD3A7B76}" {
+  TilingU 2
+  TilingV 2
+ }
+ Roughness_2 1.088
+ Color_1 0.051 0.051 0.051 1
+ BCR_1 "{B141E00CC94C086A}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_BCR.edds"
+ NMO_1 "{89995B9E103B5AF4}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{5D5E52C8778E6F85}" {
+  TilingU 4
+  TilingV 4
+ }
+}

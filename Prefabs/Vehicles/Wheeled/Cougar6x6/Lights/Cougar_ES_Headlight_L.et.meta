@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CEBC5D583B7EE4DE}Prefabs/Vehicles/Wheeled/Cougar/Lights/Cougar_ES_Headlight_L.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,69 @@
+MatPBRMulti {
+ GlobalMCRMap "{3034D67B44326379}Assets/Vehicles/Wheeled/Cougar/Data/Textures/CougarH_Interior_01_MCR.edds"
+ MaskMap "{1B09A3327E48D8EE}Assets/Vehicles/Wheeled/Cougar/Data/Textures/CougarH_Interior_01_GLOBAL_MASK.edds"
+ VFXMap "{84F5E2D0B3DF1055}Assets/Vehicles/Wheeled/Cougar/Data/Textures/CougarH_Interior_01_VFX.edds"
+ MudOpacity 0.822
+ MudColor 0.552 0.455 0.329 1
+ MudRoughness 1.5
+ MudBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ MudNMOMap "{370535C4B4BFD3B2}Assets/_SharedData/Dirt/ST_Clay_Rough01_1m_NMO.edds"
+ MudMaskMap "{1B7EB2580B7412F0}Assets/_SharedData/DetailMask/ST_Smudge_01_Mask1.edds"
+ MudUVTransform MatUVTransform "{5D5ECEBECC7066D8}" {
+  TilingU 7
+  TilingV 7
+ }
+ DirtOpacity 0.089
+ DirtLayerSharpness 0.5
+ DirtColor 0.347 0.24 0.165 1
+ DirtRoughness 1.5
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ DirtUVTransform MatUVTransform "{5D5ECEBEB30F9853}" {
+  TilingU 12
+  TilingV 12
+ }
+ Enabled_4 1
+ Color_4 0.402 0.297 0.228 1
+ BCR_4 "{AAEB42112BD58A64}Assets/_SharedData/Metal/ST_metal_painted_brushstrokes_01_BCR.edds"
+ NMO_4 "{E522A07425E30E8C}Assets/_SharedData/Metal/ST_Metal_Stainles01_1m_NMO.edds"
+ MaskSharpness_4 2
+ MaskOffset_4 0.655
+ UVTransform_4 MatUVTransform "{5D5ECEBD99DCDD91}" {
+  TilingU 15
+  TilingV 15
+ }
+ Metalness_4 0
+ Enabled_3 1
+ Color_3 0.258 0.258 0.258 1
+ BCR_3 "{35DFF427FFCD66ED}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_BCR.edds"
+ NMO_3 "{0D074FB526BA3473}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_NMO.edds"
+ MaskSharpness_3 5
+ Mask_3 "{490DFFF4475F7EC7}Assets/_SharedData/DetailMask/ST_Dirt_09_Mask1.edds"
+ MaskUVScale_3 2
+ UVTransform_3 MatUVTransform "{5D5ECEB9E044305D}" {
+  TilingU 40
+  TilingV 40
+ }
+ Roughness_3 1.151
+ Metalness_3 0.906
+ Enabled_2 1
+ Color_2 0.013 0.013 0.013 1
+ BCR_2 "{F829787DA88C2E39}Assets/_SharedData/Plastic/ST_Plastic_Leather02_1m_BCR.edds"
+ NMO_2 "{C0F1C3EF71FB7CA7}Assets/_SharedData/Plastic/ST_Plastic_Leather02_1m_NMO.edds"
+ MaskUVScale_2 0.001
+ UVTransform_2 MatUVTransform "{5D5ECEB833D83FA4}" {
+  TilingU 20
+  TilingV 20
+ }
+ DetNormal_2 0.5
+ Metalness_2 0
+ AO_2 0.7
+ Color_1 0.319 0.227 0.161 1
+ BCR_1 "{AAEB42112BD58A64}Assets/_SharedData/Metal/ST_metal_painted_brushstrokes_01_BCR.edds"
+ NMO_1 "{E522A07425E30E8C}Assets/_SharedData/Metal/ST_Metal_Stainles01_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{5D5AC35378D45813}" {
+  TilingU 15
+  TilingV 15
+ }
+ Metalness_1 0
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7A20577245BA2ED9}Assets/Vehicles/Wheeled/Cougar/Data/Textures/Cougar_Body_01_VFX.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

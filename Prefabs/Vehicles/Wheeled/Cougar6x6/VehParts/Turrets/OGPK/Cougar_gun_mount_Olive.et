@@ -1,0 +1,16 @@
+GameEntity : "{439CCBBE2BCA1E38}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Turrets/OGPK/Cougar_gun_mount.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{5D60A72FE5BDAFC6}" {
+     SourceMaterial "Cabin"
+     AssignedMaterial "{4D954914AEE9FE02}Assets/Vehicles/Wheeled/JLTV/data/Cabin_Olive.emat"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{90B989E912580C95}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_Armored_Olive.et"
+  }
+ }
+}

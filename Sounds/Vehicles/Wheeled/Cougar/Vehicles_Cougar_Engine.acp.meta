@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C68626A0370FA9C0}Sounds/Vehicles/Wheeled/Ural4320/Vehicles_Cougar_Engine.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,21 @@
+GameEntity : "{71B6E9BF89F5986F}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Turrets/Camera/CougarH_Camera.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{5D9E467F962C3760}" {
+     SourceMaterial "CougarH_Body_01"
+     AssignedMaterial "{A8E84E572E3D17DC}Assets/Vehicles/Wheeled/Cougar/Data/CougarH_Body_01_Olive.emat"
+    }
+    MaterialAssignClass "{5D9E467F962C374A}" {
+     SourceMaterial "CougarH_Interior_01"
+     AssignedMaterial "{6C87B34EB46C8443}Assets/Vehicles/Wheeled/Cougar/Data/CougarH_Interior_01_Olive.emat"
+    }
+    MaterialAssignClass "{5D9E467F962C3742}" {
+     SourceMaterial "Cougar_Body_01"
+     AssignedMaterial "{2F744E6C6E341EFB}Assets/Vehicles/Wheeled/Cougar/Data/CougaHE_Body_01_Olive.emat"
+    }
+   }
+  }
+ }
+}

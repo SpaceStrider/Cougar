@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B2EFC7910824A787}Prefabs/Vehicles/Wheeled/Cougar/Lights/Cougar_ES_Break_BackLeft.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

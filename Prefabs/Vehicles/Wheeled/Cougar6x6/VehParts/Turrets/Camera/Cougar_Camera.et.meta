@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F9EA833025A88818}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/Cougar_Camera.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

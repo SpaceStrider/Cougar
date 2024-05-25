@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{772A5979B233C85A}Prefabs/Vehicles/Wheeled/Cougar4x4/Cougar4x4_Tan_OPGK.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,11 @@
+GenericEntity : "{C14028CBCD2368B0}Prefabs/Vehicles/Core/DestructibleVehicleGlass_Armored.et" {
+ ID "54ACA4E7EDB33945"
+ components {
+  MeshObject "{54ACA4E7F43678F8}" {
+   Object "{EB602C724C8C3506}Assets/Vehicles/Wheeled/Cougar/VehParts/Glass/CougarH_Glass.xob"
+  }
+  SCR_HitZoneContainerComponent "{54ACA4E7F4367947}" {
+   Enabled 0
+  }
+ }
+}

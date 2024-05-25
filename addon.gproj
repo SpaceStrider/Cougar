@@ -1,0 +1,20 @@
+GameProject {
+ ID "Cougar"
+ GUID "5D5A20A8AE33C21E"
+ TITLE "Cougar"
+ Dependencies {
+  "58D0FB3206B6F859" "5C721177A220B42F"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

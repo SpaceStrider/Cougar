@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{DFD38A5CC29A84F4}Prefabs/Vehicles/Wheeled/Cougar/Lights/Cougar_ES_Flood_Right.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

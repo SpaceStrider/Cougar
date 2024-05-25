@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{97ED845C8B46D35B}Prefabs/Vehicles/Wheeled/Cougar4x4/Configs/CargoCompartment_Cougar4x4.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

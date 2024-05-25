@@ -1,0 +1,57 @@
+Vehicle : "{833AC7ECD038AAD8}Prefabs/Vehicles/Wheeled/Cougar6x6/Cougar6x6_Tan_OPGK.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5D74ABDDC9815158}" {
+     SourceMaterial "CougarHE_Body_01"
+     AssignedMaterial "{2F744E6C6E341EFB}Assets/Vehicles/Wheeled/Cougar/Data/CougaHE_Body_01_Olive.emat"
+    }
+    MaterialAssignClass "{5D74ABDDC98152A5}" {
+     SourceMaterial "CougarHE_Interior_01"
+     AssignedMaterial "{6F8BA360D4E4D4EB}Assets/Vehicles/Wheeled/Cougar/Data/CougarHE_Interior_01_Olive.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Cougar 6x6 OPGK Olive"
+    m_Image "{78AA29C3885AA181}UI/Textures/EditorPreviews/Vehicles/Wheeled/Cougar6x6/Cougar6x6_Olive.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{59931D2744FFC72A}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Wheels/Cougar_wheel_01_Olive.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{59931D2744FFC72A}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Wheels/Cougar_wheel_01_Olive.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{59931D2744FFC72A}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Wheels/Cougar_wheel_01_Olive.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{59931D2744FFC72A}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Wheels/Cougar_wheel_01_Olive.et"
+    }
+    SCR_WheelSlotInfo Wheel_L03 {
+     Prefab "{59931D2744FFC72A}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Wheels/Cougar_wheel_01_Olive.et"
+    }
+    SCR_WheelSlotInfo Wheel_R03 {
+     Prefab "{59931D2744FFC72A}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Wheels/Cougar_wheel_01_Olive.et"
+    }
+    RegisteringComponentSlotInfo Wheel_Spare_L {
+     Prefab "{59931D2744FFC72A}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Wheels/Cougar_wheel_01_Olive.et"
+    }
+    RegisteringComponentSlotInfo Wheel_Spare_R {
+     Prefab "{59931D2744FFC72A}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Wheels/Cougar_wheel_01_Olive.et"
+    }
+    RegisteringComponentSlotInfo Camera {
+     Prefab "{69F304BB9C762371}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Turrets/Camera/Cougar_Camera_Olive.et"
+    }
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{52E36F170492A768}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Turrets/OGPK/Cougar_gun_mount_Olive.et"
+    }
+   }
+  }
+ }
+}

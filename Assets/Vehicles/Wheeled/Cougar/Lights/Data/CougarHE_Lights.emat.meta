@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{74442E96FB0B50CF}Assets/Vehicles/Wheeled/Cougar/Lights/Data/CougarHE_Lights.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

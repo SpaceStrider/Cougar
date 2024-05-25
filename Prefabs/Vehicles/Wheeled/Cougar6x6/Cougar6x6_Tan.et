@@ -1,0 +1,214 @@
+Vehicle : "{0B9C069667E9ACC0}Prefabs/Vehicles/Wheeled/Cougar6x6/Cougar6x6_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_L02 : "{BC0EE12F6E43CE6A}Prefabs/Vehicles/Wheeled/Cougar6x6/Configs/Passenger.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList +{
+      }
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList +{
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_L01"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_passenger_L01"
+     }
+     DoorInfoList {
+      CompartmentDoorInfo "{50B8D5DD7BC767A1}" {
+       ContextName "RearDoor"
+       EntryPositionInfo PointInfo "{50B8D5DD78963937}" {
+        Offset 0 0 -5
+       }
+       ExitPositionInfo PointInfo "{5D5ECEB68221EDA4}" {
+        Offset 0 1 -3.2
+       }
+       GetOutTeleport 1
+       SeatPositionAligning 0
+      }
+     }
+     AccessibilitySettings CompartmentAccessibilityContext "{5D5ECEB6D29D7446}" {
+     }
+     BaseCoverage 0.5
+     ContextName "Passenger_L01"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{5D5ECEB62E7C2D25}" {
+      m_sDefaultOccupantPrefab "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+     }
+    }
+    CargoCompartmentSlot Passenger_L01 : "{BC0EE12F6E43CE6A}Prefabs/Vehicles/Wheeled/Cougar6x6/Configs/Passenger.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_L02"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_passenger_L02"
+     }
+     ContextName "Passenger_L02"
+    }
+    CargoCompartmentSlot Passenger_L03 : "{BC0EE12F6E43CE6A}Prefabs/Vehicles/Wheeled/Cougar6x6/Configs/Passenger.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_L03"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_passenger_L03"
+     }
+     ContextName "Passenger_L03"
+    }
+    CargoCompartmentSlot Passenger_L04 : "{BC0EE12F6E43CE6A}Prefabs/Vehicles/Wheeled/Cougar6x6/Configs/Passenger.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_L04"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_passenger_L04"
+     }
+     ContextName "Passenger_L04"
+    }
+    CargoCompartmentSlot Passenger_R01 : "{BC0EE12F6E43CE6A}Prefabs/Vehicles/Wheeled/Cougar6x6/Configs/Passenger.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_R01"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_passenger_R01"
+     }
+     ContextName "Passenger_R01"
+    }
+    CargoCompartmentSlot Passenger_R02 : "{BC0EE12F6E43CE6A}Prefabs/Vehicles/Wheeled/Cougar6x6/Configs/Passenger.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_R02"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_passenger_R02"
+     }
+     ContextName "Passenger_R02"
+    }
+    CargoCompartmentSlot Passenger_R03 : "{BC0EE12F6E43CE6A}Prefabs/Vehicles/Wheeled/Cougar6x6/Configs/Passenger.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_R03"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_passenger_R03"
+     }
+     ContextName "Passenger_R03"
+    }
+    CargoCompartmentSlot Passenger_R04 : "{BC0EE12F6E43CE6A}Prefabs/Vehicles/Wheeled/Cougar6x6/Configs/Passenger.conf" {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_R04"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_passenger_R04"
+     }
+     ContextName "Passenger_R04"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Cougar 6x6 Tan"
+    m_Image "{8785171FB7E68CC7}UI/Textures/EditorPreviews/Vehicles/Wheeled/Cougar6x6/Cougar6x6_Tan.edds"
+    m_aAuthoredLabels + {
+     37
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{5D5A4D839C52B9EF}" {
+      m_BudgetType AI
+      m_Value 8
+     }
+    }
+   }
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 8572.14
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{52658279A7937305}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Roof/Cougar_Roof.et"
+     RegisterDamage 1
+    }
+    EntitySlotInfo Seats {
+     Prefab "{0F2969CC34F2A8A1}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Cougar_Seats.et"
+    }
+   }
+   SlotMappers {
+    CompartmentToSlotMapping Glass {
+     Compartments + {
+      "Passenger_L02" "Passenger_L01" "Passenger_L03" "Passenger_L04" "Passenger_R01" "Passenger_R02" "Passenger_R03" "Passenger_R04"
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{5D5ECEB61463DA3C}" {
+     ContextName "passenger_L01"
+     Position PointInfo "{5D5ECEB614632D0F}" {
+      PivotID "v_passenger_L01"
+     }
+    }
+    UserActionContext "{5D5ECEB6147CD87C}" {
+     ContextName "passenger_L02"
+     Position PointInfo "{5D5ECEB6147C4EAB}" {
+      PivotID "v_passenger_L02"
+     }
+    }
+    UserActionContext "{5D5ECEB6147DF64D}" {
+     ContextName "passenger_L03"
+     Position PointInfo "{5D5ECEB6147D9E38}" {
+      PivotID "v_passenger_L03"
+     }
+    }
+    UserActionContext "{5D5ECEB6147D02F6}" {
+     ContextName "passenger_L04"
+     Position PointInfo "{5D5ECEB6147EABA7}" {
+      PivotID "v_passenger_L04"
+     }
+    }
+    UserActionContext "{5D5ECEB6147E5DA8}" {
+     ContextName "passenger_R01"
+     Position PointInfo "{5D5ECEB6147FC475}" {
+      PivotID "v_passenger_R01"
+     }
+    }
+    UserActionContext "{5D5ECEB6147F61C3}" {
+     ContextName "passenger_R02"
+     Position PointInfo "{5D5ECEB6147F09C3}" {
+      PivotID "v_passenger_R02"
+     }
+    }
+    UserActionContext "{5D5ECEB61478B627}" {
+     ContextName "passenger_R03"
+     Position PointInfo "{5D5ECEB614785AE9}" {
+      PivotID "v_passenger_R03"
+     }
+    }
+    UserActionContext "{5D5ECEB61479C78D}" {
+     ContextName "passenger_R04"
+     Position PointInfo "{5D5ECEB614796E9D}" {
+      PivotID "v_passenger_R04"
+     }
+    }
+   }
+  }
+ }
+}

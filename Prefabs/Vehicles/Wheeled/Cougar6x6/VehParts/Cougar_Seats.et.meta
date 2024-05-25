@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{0F2969CC34F2A8A1}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Roof/Cougar_Seats.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

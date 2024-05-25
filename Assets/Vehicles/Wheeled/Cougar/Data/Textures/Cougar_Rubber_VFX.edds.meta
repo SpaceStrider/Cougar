@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B69D2F2ACD7071AD}Assets/Vehicles/Wheeled/Cougar/Data/Textures/Cougar_Rubber_VFX.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}
