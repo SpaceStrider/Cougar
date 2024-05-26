@@ -14,6 +14,15 @@ GenericEntity : "{8DB4EEC64B2C8A08}Prefabs/Vehicles/Core/VehicleWheel_base.et" {
     }
    }
   }
+  ActionsManagerComponent "{5E1CA64E3C981BB5}" {
+   ActionContexts {
+    UserActionContext "{5E1CA64E315DF059}" {
+     Position PointInfo "{5E1CA64E4AA94362}" {
+      Offset -0.25 0 0
+     }
+    }
+   }
+  }
  }
  coords 114.41 1.001 183.462
 }
